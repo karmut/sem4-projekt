@@ -1,0 +1,36 @@
+.header-container {
+  background-image: url(./img/pic.png), url(./img/logo.png);
+  background-size: cover, 447px 402px;
+  background-position: center, left top;
+  padding-bottom: 192px;
+}
+
+.header-title {
+  color: rgb(220, 86, 197);
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 40px;
+}
+.header-input {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(147, 147, 147);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+}
+
+/* .logo-icon {
+  background-size: 100px 100px;
+} */
